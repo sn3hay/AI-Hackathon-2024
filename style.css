@@ -1,0 +1,59 @@
+/* Override Streamlit app background */
+.main {
+    background-color: #2A3D45; /* Dark teal */
+    color: #EAEAEA; /* Light gray text for dark background */
+}
+
+/* Background for sidebar */
+.css-1d391kg {
+    background-color: #8C9A9B !important; /* Darker gray */
+    color: #2A3D45 !important; /* Dark teal text for light background */
+}
+
+/* Sidebar text color */
+.css-1d391kg .css-1v3fvcr {
+    color: #2A3D45 !important; /* Dark teal for sidebar text on light background */
+}
+
+/* Sidebar title color */
+.css-1d391kg h2 {
+    color: #2A3D45 !important; /* Dark teal for sidebar titles */
+}
+
+/* Customize the button styles */
+.stButton>button {
+    background-color: #F4D35E; /* Muted yellow */
+    color: #2A3D45; /* Dark teal for text */
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.stButton>button:hover {
+    background-color: #A7C4BC; /* Mint green */
+    color: #2A3D45 !important; /* Ensure the text color stays dark teal */
+}
+
+/* Input fields and text area border */
+.stTextInput>div>input, .stTextArea>div>textarea {
+    border: 2px solid #F4D35E; /* Muted yellow */
+    border-radius: 8px;
+    padding: 10px;
+    color: #2A3D45; /* Dark teal text inside input */
+}
+
+.stTextInput>div>input:hover, .stTextArea>div>textarea:hover {
+    border: 2px solid #A7C4BC; /* Mint green on hover */
+    color: #2A3D45; /* Ensure the text stays dark teal */
+}
+
+/* File upload box (to ensure text visibility) */
+.css-1d391kg [class*="fileUploadLabel"] {
+    color: #2A3D45 !important; /* Dark teal text in file upload */
+}
+
+.css-1d391kg [class*="fileUploadLabel"]:hover {
+    color: #2A3D45 !important; /* Ensure dark teal text on hover */
+}
